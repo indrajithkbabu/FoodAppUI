@@ -27,7 +27,7 @@ dependencies:
   crypto: ^3.0.2
   the_apple_sign_in: ^1.1.1
   very_good_cli: ^0.11.0+1
-  smooth_page_indicator: ^1.0.1
+  smooth_page_indicator: ^1.1.0
   firebase_database: ^10.0.14
   http: ^0.13.5
   equatable: ^2.0.5
