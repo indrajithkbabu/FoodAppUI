@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "300643736688",
+    "firebase_url": "https://food-delivery-app-5ff8c-default-rtdb.firebaseio.com",
+    "project_id": "food-delivery-app-5ff8c",
+    "storage_bucket": "food-delivery-app-5ff8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300643736688:android:78a1afd9ae1304dc4b28b5",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300643736688-uden4iim20u6ssheqd8nk6aetn6gsdnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.food_delivery_app",
+            "certificate_hash": "4c13369523e106d21706d1de85b88f1cf0413771"
+          }
+        },
+        {
+          "client_id": "300643736688-v2k104g1gdpg813gkdsa961tvu2ppo1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqf2VzRw6x8mrLyuVYIpo6CCIcTOZxtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300643736688-5evtdd51fujkeroep9qt42gq01eme3nc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "300643736688-15h83peoglvrm65gvg640be1cqq3o3qp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ileaf.fooddelivery.foodieapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300643736688:android:73674de22480fda64b28b5",
+        "android_client_info": {
+          "package_name": "com.ileaf.fooddelivery.foodieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300643736688-v8m8s9tvck6boa198pdrel0a39tlr77d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ileaf.fooddelivery.foodieapp",
+            "certificate_hash": "4c13369523e106d21706d1de85b88f1cf0413771"
+          }
+        },
+        {
+          "client_id": "300643736688-v2k104g1gdpg813gkdsa961tvu2ppo1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqf2VzRw6x8mrLyuVYIpo6CCIcTOZxtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300643736688-5evtdd51fujkeroep9qt42gq01eme3nc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "300643736688-15h83peoglvrm65gvg640be1cqq3o3qp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ileaf.fooddelivery.foodieapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
