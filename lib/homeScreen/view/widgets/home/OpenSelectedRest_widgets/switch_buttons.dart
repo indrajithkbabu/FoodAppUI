@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:foodieapp/homeScreen/bloc/bloc/viewcart_bloc.dart';
 import 'package:foodieapp/homeScreen/bloc/home_screen_bloc.dart';
 import 'package:foodieapp/utils/constants.dart';
 
@@ -16,7 +17,7 @@ class SwitchVegNon extends StatelessWidget {
                     children: [
                       Transform.scale(
                         scale: 1,
-                        child: BlocBuilder<HomeScreenBloc, HomeScreenState>(
+                        child: BlocBuilder<ViewcartBloc, ViewcartState>(
                           builder: (context, state) {
                             return Switch(
                               activeThumbImage: const AssetImage(
@@ -38,7 +39,7 @@ class SwitchVegNon extends StatelessWidget {
                       ),
                       Transform.scale(
                         scale: 1,
-                        child: BlocBuilder<HomeScreenBloc, HomeScreenState>(
+                        child: BlocBuilder<ViewcartBloc, ViewcartState>(
                           builder: (context, state) {
                             return Switch(
                               activeThumbImage: const AssetImage(

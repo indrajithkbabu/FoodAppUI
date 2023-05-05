@@ -23,8 +23,7 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
             isOrdersWhatsapp: state.isOrdersWhatsapp,
             isEnableAllSwitch: state.isEnableAllSwitch,
             dropdownvalue: state.dropdownvalue,
-            isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+        
             ),);
       },
     );
@@ -42,8 +41,7 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
               isOrdersWhatsapp: state.isOrdersWhatsapp,
               isEnableAllSwitch: state.isEnableAllSwitch,
               dropdownvalue: state.dropdownvalue,
-              isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),
+             ),
         );
       },
     );
@@ -66,8 +64,7 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: true,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+         ),);
       }
       if(event.res ==false){
          emit(HomeScreenState(
@@ -79,8 +76,7 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: false,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+         ),);
       }else{
 emit(HomeScreenState(
           currentIndex: state.currentIndex,
@@ -91,8 +87,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: state.isEnableAllSwitch,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+        ),);
       }
       
     });
@@ -113,8 +108,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: true,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+         ),);
       }
       if(event.res==false){
         emit(HomeScreenState(
@@ -126,8 +120,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: false,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+          
           ),);
       }else{
 emit(HomeScreenState(
@@ -139,8 +132,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: state.isEnableAllSwitch,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+         
           ),);
       }
      
@@ -161,8 +153,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: true,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+         ),);
       }
       if(event.res==false){
          emit(HomeScreenState(
@@ -174,8 +165,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: false,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+         
           ),);
       }else{
          emit(HomeScreenState(
@@ -187,8 +177,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: state.isEnableAllSwitch,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+       
           ),);
       }
       
@@ -210,8 +199,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: true,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+         ),);
       }
       if(event.res==false){
          emit(HomeScreenState(
@@ -223,8 +211,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: state.isOrdersWhatsapp,
           isEnableAllSwitch: false,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+          ),);
       }else{
           emit(HomeScreenState(
           currentIndex: state.currentIndex,
@@ -233,8 +220,7 @@ emit(HomeScreenState(
           isSocialPush: state.isSocialPush,
           isOrdersPush: event.res,
           isOrdersWhatsapp: state.isOrdersWhatsapp,
-          isEnableAllSwitch: state.isEnableAllSwitch,dropdownvalue: state.dropdownvalue,isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+          isEnableAllSwitch: state.isEnableAllSwitch,dropdownvalue: state.dropdownvalue),);
       }
       
     });
@@ -255,8 +241,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: event.res,
           isEnableAllSwitch: true,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,),);
+       ),);
       }
 
       if(event.res==false){
@@ -269,8 +254,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: event.res,
           isEnableAllSwitch: false,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+        
           ),);
       }else{
          return emit(HomeScreenState(
@@ -282,8 +266,7 @@ emit(HomeScreenState(
           isOrdersWhatsapp: event.res,
           isEnableAllSwitch: state.isEnableAllSwitch,
           dropdownvalue: state.dropdownvalue,
-          isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+          
           ),);
       }
      
@@ -299,8 +282,7 @@ emit(HomeScreenState(
         isOrdersWhatsapp: event.orderWhatsappRes,
         isEnableAllSwitch: event.res,
         dropdownvalue: state.dropdownvalue,
-        isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+    
       ),);
     });
   on<DropDownGender>((event, emit) {
@@ -313,8 +295,7 @@ emit(HomeScreenState(
         isOrdersWhatsapp: state.isOrdersWhatsapp,
         isEnableAllSwitch: state.isEnableAllSwitch,
         dropdownvalue: event.genderRes,
-        isVeg: state.isVeg,
-            isNonVeg: state.isNonVeg,
+   
       ),);
     });
 
@@ -329,8 +310,7 @@ emit(HomeScreenState(
         isOrdersWhatsapp: state.isOrdersWhatsapp,
         isEnableAllSwitch: state.isEnableAllSwitch,
         dropdownvalue: state.dropdownvalue,
-        isVeg: event.res,
-            isNonVeg: state.isNonVeg,
+      
       ),);
     });
      on<NonVegSwitch>((event, emit) {
@@ -343,8 +323,7 @@ emit(HomeScreenState(
         isOrdersWhatsapp: state.isOrdersWhatsapp,
         isEnableAllSwitch: state.isEnableAllSwitch,
         dropdownvalue: state.dropdownvalue,
-        isVeg: state.isVeg,
-            isNonVeg: event.res,
+   
       ),);
     });
 

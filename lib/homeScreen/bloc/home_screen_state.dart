@@ -13,8 +13,7 @@ int? activeIndex;
    bool isOrdersWhatsapp;
    bool isEnableAllSwitch;
    String dropdownvalue ;
-  bool isVeg ;
-  bool isNonVeg ;
+
   var items = [
     'Male',
     'Female',
@@ -29,8 +28,7 @@ int? activeIndex;
     required this.isOrdersWhatsapp,
     required this.isEnableAllSwitch,
     required this.dropdownvalue,
-    required this.isVeg,
-    required this.isNonVeg,
+  
     });
 }
 
@@ -44,7 +42,6 @@ class HomeScreenInitial extends HomeScreenState {
   isOrdersWhatsapp: true,
   isEnableAllSwitch: true,
   dropdownvalue: 'Male',
-  isVeg: false,
-  isNonVeg: false,
+ 
   );
 }

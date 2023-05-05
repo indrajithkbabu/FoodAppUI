@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:foodieapp/homeScreen/bloc/bloc/api_home_bloc.dart';
 import 'package:foodieapp/homeScreen/bloc/bloc/cart_bloc.dart';
+import 'package:foodieapp/homeScreen/bloc/bloc/viewcart_bloc.dart';
 import 'package:foodieapp/homeScreen/bloc/home_screen_bloc.dart';
 import 'package:foodieapp/homeScreen/repo/address_repo.dart';
 import 'package:foodieapp/homeScreen/repo/home_repo.dart';
@@ -68,6 +69,8 @@ class App extends StatelessWidget {
           ),
           BlocProvider<CartBloc>(
             create: (context) => CartBloc(),
+          ), BlocProvider<ViewcartBloc>(
+            create: (context) => ViewcartBloc(),
           ),
 
           BlocProvider<ApiHomeBloc>(
