@@ -34,7 +34,7 @@ dependencies:
   dio: ^5.0.1
   shimmer: ^2.0.0
   get: ^4.6.5
-  shared_preferences: ^2.0.20
+  shared_preferences: ^2.2.0
   flutter_switch: ^0.3.2
 
 
